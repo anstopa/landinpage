@@ -1,0 +1,32 @@
+.header {
+    margin: 0 auto;
+    @include breakpoint(xxl){
+        width: 1300px;
+     }
+    
+    .header_text{
+        
+        margin-top: 40px;
+        margin-left: 200px;
+        @include breakpoint(xxl){
+            margin-left: 150px;
+        }
+    }
+
+
+    .logo{
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+    
+    .header_button{
+    margin-top: 30px;
+     background-color: #53B53C;
+     border-radius: 10px;
+     color: #fff;
+     font-size: 16px;
+     width: 125px;
+     height: 45px;
+     border: none;
+    }
+}
